@@ -6,7 +6,7 @@
 }
 html{
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: burlywood;
 }
 body{
     color: white;
@@ -67,7 +67,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background-color: #ff004f;
+    background-color: black;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -85,16 +85,16 @@ nav ul li a:hover::after{
 
 
 .header-text h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .header-text h1 span{
-    color: #ff004f;
+    color: white;
 }
 
 .btn{
     display: inline-block;
-    border: 1px solid #ff004f;
+    border: 1px solid black;
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
@@ -102,7 +102,7 @@ nav ul li a:hover::after{
     border-radius: 10px;
 }
 .btn:hover{
-    background-color: #ff004f;
+    background-color: black;
 }
 .smallWrapper{
     visibility: hidden;
@@ -122,7 +122,7 @@ nav ul li a:hover::after{
 }
 .dynamic li{
     list-style: none;
-    color: #ff004f;
+    color: rgb(17, 15, 15);
     font-size: 25px;
     font-weight: 600;
     top: 0;
@@ -144,8 +144,8 @@ nav ul li a:hover::after{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: black;
-    border-left: 2px solid #ff004f;
+    background-color: burlywood;
+    border-left: 2px solid white;
     animation: typing 2s steps(23) infinite;
 }
 
@@ -207,7 +207,7 @@ background-color: #101010;
     content:'';
     width:0;
     height:3px;
-    background-color: #ff004f;
+    background-color: white;
     position:absolute;
     left:0;
     bottom: -8px;
@@ -497,6 +497,14 @@ nav .fas{
 }
 .header-text h1{
     font-size: 20px;
+}
+
+.btn{
+    border: 1px solid rgb(255, 255, 255);
+    color: #fff;
+}
+.btn:hover{
+    background-color: black;
 }
 .wrapper{
     visibility: hidden;
