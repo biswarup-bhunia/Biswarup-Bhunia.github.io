@@ -35,7 +35,7 @@
   .calendar {
       width:100%;
       border: 1px solid black;
-      border-radius: 3px;
+      border-radius: 5px;
       text-align: center;
       margin: auto;
       padding:1%;
@@ -52,6 +52,8 @@
       text-align: center;
       border-left: 1px solid rgb(0, 0, 0);
       border-top: 1px solid rgb(0, 0, 0);
+      border-right: 1px solid rgb(0, 0, 0);
+      border-bottom: 1px solid rgb(0, 0, 0);
       font-size: 11px;
   }
   
