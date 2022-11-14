@@ -1,6 +1,11 @@
 let details=document.getElementsByClassName("skill-ed");
 let content=document.getElementsByClassName("contents");
 
+window.addEventListener("scroll",function(){
+    let nav=this.document.querySelector("nav");
+    nav.classList.toggle("sticky",window.scrollY > 0);
+})
+
 opentab=(name)=>{
     for(detail of details){
         detail.classList.remove("active");
