@@ -1,9 +1,9 @@
 :root {
-    --color-calendar-graph-day-bg: #e0f6d7;
-    --color-calendar-graph-day-L1-bg: #39dd34;
-    --color-calendar-graph-day-L2-bg: #45a045;
-    --color-calendar-graph-day-L3-bg: #047526;
-    --color-calendar-graph-day-L4-bg: #0a4208;
+    --color-calendar-graph-day-bg: #56e251;
+    --color-calendar-graph-day-L1-bg: #7fc065;
+    --color-calendar-graph-day-L2-bg: #65ca65;
+    --color-calendar-graph-day-L3-bg: #5bb576;
+    --color-calendar-graph-day-L4-bg: #3e5b3d;
   }
   
   rect.ContributionCalendar-day[data-level='0'] {
@@ -41,55 +41,18 @@
       padding:1%;
       margin-top: 20px;
   }
-
-  .calendar-graph text.wday,
-  .calendar-graph text.month {
-      font-size: 15px;
-      fill: rgb(0, 0, 0);
-  }
   
-  .contrib-legend {
-      text-align: right;
-      padding: 0 14px 10px 0;
-      display: inline-block;
-      float: right;
-  }
-  
-  .contrib-legend .legend {
-      display: inline-block;
-      list-style: none;
-      margin: 0 5px;
-      position: relative;
-      bottom: -1px;
-      padding: 0;
-  }
-  
-  .contrib-legend .legend li {
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-  }
-  
+ 
   .text-small {
       font-size: 15px;
       color: black;
   }
-  
-  .calendar-graph {
-      padding: 5px 0 0;
-      text-align: center;
-  }
-  
   .contrib-column {
       padding: 15px 0;
       text-align: center;
       border-left: 1px solid rgb(0, 0, 0);
       border-top: 1px solid rgb(0, 0, 0);
       font-size: 11px;
-  }
-  
-  .contrib-column-first {
-      border-left: 0;
   }
   
   .table-column {
@@ -107,38 +70,11 @@
       display: block;
       color: rgb(0, 0, 0);
   }
-  .day-tooltip {
-      white-space: nowrap;
-      position: absolute;
-      z-index: 99999;
-      padding: 10px;
-      font-size: 12px;
-      color: #000000;
-      text-align: center;
-      background: rgba(0,0,0,.85);
-      border-radius: 3px;
-      display: none;
-      pointer-events: none;
-  }
-  .day-tooltip strong {
-      color: #000000;
-  }
-  .day-tooltip.is-visible {
-      display: block;
-  }
-  .day-tooltip:after {
-      position: absolute;
-      bottom: -10px;
-      left: 50%;
-      width: 5px;
-      height: 5px;
-      box-sizing: border-box;
-      margin: 0 0 0 -5px;
-      content: " ";
-      border: 5px solid transparent;
-      border-top-color: rgba(0,0,0,.85)
-  }
   
+  .float-right{
+    visibility: hidden;
+  }
+
   text.ContributionCalendar-label {
       fill: rgb(0, 0, 0);
       font-size: 11px;
