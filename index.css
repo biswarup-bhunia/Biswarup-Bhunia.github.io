@@ -506,6 +506,7 @@ nav .fas{
     justify-content: center;
     position: static;
     font-size: 16px;
+    color: #cf815f;
 
 }
 .header-text h1{
@@ -533,7 +534,8 @@ nav .fas{
     padding-right: 20px;
 }
 nav ul {
-    background: #ff004f;
+    background: 
+    #795548;
     position: fixed;
     top: 0px;
     right: -200px;
@@ -623,7 +625,7 @@ nav .fas{
     font-size: 25px;
 }
 nav ul {
-    background: #ff004f;
+    background: #795548;;
     position: fixed;
     top: 0px;
     right: -200px;
