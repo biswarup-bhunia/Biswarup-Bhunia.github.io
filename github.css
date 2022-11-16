@@ -1,9 +1,9 @@
 :root {
-    --color-calendar-graph-day-bg: #56e251;
-    --color-calendar-graph-day-L1-bg: #7fc065;
-    --color-calendar-graph-day-L2-bg: #65ca65;
-    --color-calendar-graph-day-L3-bg: #5bb576;
-    --color-calendar-graph-day-L4-bg: #3e5b3d;
+    --color-calendar-graph-day-bg: white;
+    --color-calendar-graph-day-L1-bg: #39dd34;
+    --color-calendar-graph-day-L2-bg: #45a045;
+    --color-calendar-graph-day-L3-bg: #047526;
+    --color-calendar-graph-day-L4-bg: #0a4208;
   }
   
   rect.ContributionCalendar-day[data-level='0'] {
@@ -74,7 +74,7 @@
   }
   
   .float-right{
-    visibility: hidden;
+    color: black;
   }
 
   text.ContributionCalendar-label {

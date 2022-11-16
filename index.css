@@ -46,6 +46,7 @@ nav.sticky{
     color: transparent;
     -webkit-text-stroke: 1px rgb(111, 109, 109);
     background: url(images/back.png);
+    background-clip: border-box;
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
@@ -327,42 +328,36 @@ font-size: 20px;
 .project-list{
     width:100%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     grid-gap: 40px;
-    margin: auto;
     margin-top: 50px;
 
 }
 .work{
+    display: grid;
+    grid-template-columns: 65% 35%;
     border-radius: 10px;
-    position: relative;
-    overflow: hidden;
+    border: 2px solid #602020;
+    background: linear-gradient(#1071c8,#795548);
+    padding: 20px;
+    transition: background 0.5s, transform 0.5s;
 }
 .work img{
     width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform(0.5s);
+    height: 100%;
+    border-radius: 10px
+}
+.work:hover{
+    transform: translateY(-10px);
+    transform: scale(1.1);
+}
+.work:hover .layer{
+    height: 100%;
 }
 .layer{
     width: 100%;
-    height: 0;
-    background: linear-gradient(
-        #1071c8,
-    #795548);
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
     text-align: center;
-    font-size: 14px;
-    transition: height 0.5s;
+    padding: 10px;
 }
 .layer h1{
     font-size: 30px;
@@ -372,6 +367,8 @@ font-size: 20px;
 .layer p{
     line-height: 20px;
     font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 .layer a{
     color: black;
@@ -385,12 +382,6 @@ font-size: 20px;
 .layer a:hover{
     background-color: black;
     color: white;
-}
-.work:hover img{
-transform: scale(1.1);
-}
-.work:hover .layer{
-    height: 100%;
 }
 
 /* ---------------Contact--------------- */
