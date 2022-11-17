@@ -361,8 +361,9 @@ font-size: 20px;
 }
 .layer h1{
     font-size: 30px;
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: 20px;
+    color: black;
 }
 .layer p{
     line-height: 20px;
@@ -575,17 +576,23 @@ nav ul .fas{
 
     flex-basis: 100%;
 }
-
+.work{
+    grid-template-columns: repeat(1,1fr);   
+   
+   }
+.layer h1{
+    margin: 10px auto;
+}
 .layer h3{
     font-weight: 500;
     margin-bottom: 7px;
 }
 
 .layer p{
-    display: none;
     font-weight: 500;
     font-size: 14px;
 }
+
 
 }
 
@@ -664,5 +671,12 @@ nav ul .fas{
 .contact-left,.contact-right{
 
     flex-basis: 100%;
+}
+.work{
+    grid-template-columns: repeat(1,1fr);   
+   
+   }
+   .layer{
+    padding: 0px;
 }
 }

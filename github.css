@@ -85,3 +85,17 @@
   .text-muted{
     color: black;
   }
+  #user-activity-overview{
+    visibility: hidden;
+}
+  @media only screen and (max-width:520px){
+
+.contrib-number {
+    font-weight: bold;
+    line-height: 1.3em;
+    font-size: 15px;
+}
+.contrib-column {  
+    font-size: 10px;
+}
+  }
