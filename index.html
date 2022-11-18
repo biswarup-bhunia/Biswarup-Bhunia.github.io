@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,15 @@
     <title>Biswarup Bhunia | PortFolio</title>
     <link rel="icon" href="https://i.ibb.co/XxVMRh2/Biswarup-Logo.png" />
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="github.css"/>
+    <link rel="stylesheet" href="github.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/2e6c5ea9e6.js" crossorigin="anonymous"></script>
-    
+
 </head>
+
 <body>
     <!---------------- Navbar ------------------->
-    <nav class="navbar">
+    <nav class="navbar" data-aos="zoom-in">
         <h1 class="logo">Biswarup</h1>
         <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
@@ -23,15 +26,16 @@
             <li><a href="#portfolio">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
             <i class="fas fa-xmark" onclick="closemenu()"></i>
-            <li><a href="images/Biswarup-Bhunia-Resume.pdf" download>Resume <i class="fa-sharp fa-solid fa-circle-down"></i></a></li>
+            <li><a href="images/Biswarup-Bhunia-Resume.pdf" download>Resume <i
+                        class="fa-sharp fa-solid fa-circle-down"></i></a></li>
         </ul>
         <i class="fas fa-bars" onclick="openmenu()"></i>
     </nav>
     <!--------------------------- Header ------------------------>
-    <div id="header">
+    <div id="header" data-aos="zoom-in">
         <div class="container" id="text-content">
-           
-           
+
+
             <div class="header-text">
                 <h1>Hi Everyone, <br> I'm <span class="typing">Biswarup Bhunia</span><br></h1>
                 <div class="wrapper">
@@ -45,61 +49,72 @@
                 <div class="smallWrapper">
                     <h3>and I'm a Software Engineering</span> </h3>
                 </div>
-                
-                <a href="images/Biswarup-Bhunia-Resume.pdf" class="btn" download >Resume</a>
+
+                <a href="images/Biswarup-Bhunia-Resume.pdf" class="btn" download>Resume</a>
             </div>
-            
-            </div>
+
         </div>
     </div>
+    </div>
     <!----------------- About --------------------->
-    <div id="about">
+    <div id="about" data-aos="fade-in">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/BiswarupBhunia.png" >
+                    <img src="images/BiswarupBhunia.png">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>A passionate JAVA Back-End Developer, Dedicated to developing robust applications that interact with the Backend part of web applications. Extensive expertise in website architecture, design, and web design, and web API designs. Problem-solving mindset with a goal to optimize my application for better stability and speed. Love to work in a team.</p>
+                    <p>A passionate JAVA Back-End Developer, Dedicated to developing robust applications that interact
+                        with the Backend part of web applications. Extensive expertise in website architecture, design,
+                        and web design, and web API designs. Problem-solving mindset with a goal to optimize my
+                        application for better stability and speed. Love to work in a team.</p>
 
-                         <div class="details">
-                            <p class="skill-ed active" onclick="opentab('Technical')">Technical Skills</p>
-                            <p class="skill-ed" onclick="opentab('Skills')">Soft Skills</p>
-                            <p class="skill-ed" onclick="opentab('Education')">Education</p>
-                         </div>
-                        <div class="contents active-tab" id="Technical">
-                            <ul>
-                                <li><i id="java" class="fa-brands fa-java"></i><span>Java</span><br>Backend Web/App Devlopment</li>
-                                <li><i id="sql" class="fa-solid fa-database"></i><span>MySQL</span> <br>Database Management</li>
-                                <li><i id="js" class="fa-brands fa-js"></i><span>JavaScript</span><br>Interactive Web/App Devlopment</li>
-                                <li><i id="html" class="fa-brands fa-html5"></i><span>Html & Css</span><br>Frontend Web/App Devlopment</li>
-                            </ul>
-                        </div>
-                        <div class="contents" id="Skills">
-                            <ul>
-                                <li><i class="fa-brands fa-github"></i><span></i>GitHub</span><br> Project Track and Collaboration</li>
-                                <li><i id="dsa" class="fa-solid fa-code"></i><span>DSA</span><br> Problem Solving</li>
-                                <li><i id="communication" class="fa-solid fa-comments"></i><span>Communication Skills</span><br> Team Work</li>
-                                <li><i id="youtube" class="fa-brands fa-youtube"></i><span>Video Editing</span><br> Digital Content Creation</li>
-                            </ul>
-                         </div>
-                         <div class="contents" id="Education">
-                            <ul>
-                                <li><span>Full Stack Web Development 2022</span><br>Masai School</li>
-                                <li><span>B.Tech in Computer Science Engineering 2021</span><br>Govt. Coll. of Engg. & Textile Technology , Serampore</li>
-                                <li><span>Higher Secondary in Science 2017</span><br>Rantua Higher Secondary School</li>
-                                <li><span>Secondary 2015</span><br>Rantua High School</li>
+                    <div class="details">
+                        <p class="skill-ed active" onclick="opentab('Technical')">Technical Skills</p>
+                        <p class="skill-ed" onclick="opentab('Skills')">Soft Skills</p>
+                        <p class="skill-ed" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="contents active-tab" id="Technical">
+                        <ul>
+                            <li><i id="java" class="fa-brands fa-java"></i><span>Java</span><br>Backend Web/App
+                                Devlopment</li>
+                            <li><i id="sql" class="fa-solid fa-database"></i><span>MySQL</span> <br>Database Management
+                            </li>
+                            <li><i id="js" class="fa-brands fa-js"></i><span>JavaScript</span><br>Interactive Web/App
+                                Devlopment</li>
+                            <li><i id="html" class="fa-brands fa-html5"></i><span>Html & Css</span><br>Frontend Web/App
+                                Devlopment</li>
+                        </ul>
+                    </div>
+                    <div class="contents" id="Skills">
+                        <ul>
+                            <li><i class="fa-brands fa-github"></i><span></i>GitHub</span><br> Project Track and
+                                Collaboration</li>
+                            <li><i id="dsa" class="fa-solid fa-code"></i><span>DSA</span><br> Problem Solving</li>
+                            <li><i id="communication" class="fa-solid fa-comments"></i><span>Communication
+                                    Skills</span><br> Team Work</li>
+                            <li><i id="youtube" class="fa-brands fa-youtube"></i><span>Video Editing</span><br> Digital
+                                Content Creation</li>
+                        </ul>
+                    </div>
+                    <div class="contents" id="Education">
+                        <ul>
+                            <li><span>Full Stack Web Development 2022</span><br>Masai School</li>
+                            <li><span>B.Tech in Computer Science Engineering 2021</span><br>Govt. Coll. of Engg. &
+                                Textile Technology , Serampore</li>
+                            <li><span>Higher Secondary in Science 2017</span><br>Rantua Higher Secondary School</li>
+                            <li><span>Secondary 2015</span><br>Rantua High School</li>
 
-                            </ul>
-                         </div>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!----------------- Services ----------------------->
-    <div id="services">
-        <div class="container">
+    <div id="services" >
+        <div class="container" data-aos="fade-in">
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
                 <div>
@@ -120,14 +135,14 @@
             </div>
         </div>
     </div>
-        
+
     <!-------------------------- GitHub ------------------------>
-    <div class="container git" id="github">
+    <div class="container git" id="github" data-aos="fade-in">
         <h1 class="sub-title">GitHub Statistics</h1>
         <div class="calendar"></div>
     </div>
     <!-------------------------- Projects ------------------------>
-    <div id="portfolio">
+    <div id="portfolio" data-aos="fade-in">
         <div class="container">
             <h1 class="sub-title">My Works</h1>
             <div class="project-list">
@@ -135,19 +150,24 @@
                     <img src="images/geekbuying.png">
                     <div class="layer">
                         <h1>Geekbuying - Clone</h1>
-                        <p>An Ecommerce website. <br> This is a group project. <br> Tech Stack Used - HTML , CSS , Vanilla JS.<br> In this project, I lead the team. <br> I created the brand page, product page, clearance page,Address Page. <br> </p>
+                        <p>An Ecommerce website. <br> This is a group project. <br> Tech Stack Used - HTML , CSS ,
+                            Vanilla JS.<br> In this project, I lead the team. <br> I created the brand page, product
+                            page, clearance page,Address Page. <br> </p>
                         <div>
-                        <a href="https://github.com/biswarup-bhunia/geeksbuying.com" target="_blank">Source Code</a>
-                        <a href="https://brilliant-cassata-ee551e.netlify.app/" target="_blank">Website</a>
-                    </div>
+                            <a href="https://github.com/biswarup-bhunia/geeksbuying.com" target="_blank">Source Code</a>
+                            <a href="https://brilliant-cassata-ee551e.netlify.app/" target="_blank">Website</a>
+                        </div>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/clockify.png">
                     <div class="layer">
                         <h1>Clockify - Clone</h1>
-                        <p>A project tracking website. <br> This is a group project. <br> Tech Stack- HTML , CSS , JAVASCRIPT(ES6 & ES5)<br> We have used GitHub for collaboration. <br>I created the upgrade page, selection page, address page,
-                            checkout page. <br> The functionality we are adding in the project are: Sign Up & Log In , Create project , Adding client , Subscription , 
+                        <p>A project tracking website. <br> This is a group project. <br> Tech Stack- HTML , CSS ,
+                            JAVASCRIPT(ES6 & ES5)<br> We have used GitHub for collaboration. <br>I created the upgrade
+                            page, selection page, address page,
+                            checkout page. <br> The functionality we are adding in the project are: Sign Up & Log In ,
+                            Create project , Adding client , Subscription ,
                             Payment page.
                         </p>
                         <div>
@@ -160,31 +180,40 @@
                     <img src="images/EverHour.png">
                     <div class="layer">
                         <h1>Everhour - Clone</h1>
-                        <p>A Free time tracking software with hassle-free integrations. <br> This is a group project. <br> Tech Stack- HTML , CSS , JAVASCRIPT<br> I created the Tour page, Login page, welcome page, create project , Address Page. <br> The functionality we are adding in the project are: Sign Up & Log In , All static pages , Track project , Subscription , 
-                            Payment page.</p>
+                        <p>A Free time tracking software with hassle-free integrations. <br> This is a group project.
+                            <br> Tech Stack- HTML , CSS , JAVASCRIPT<br> I created the Tour page, Login page, welcome
+                            page, create project , Address Page. <br> The functionality we are adding in the project
+                            are: Sign Up & Log In , All static pages , Track project , Subscription ,
+                            Payment page.
+                        </p>
                         <div>
-                        <a href="https://github.com/chinnijagadeesh/godly-pleasure-4788" target="_blank">Source Code</a>
-                        <a href="https://meek-sunflower-0fd026.netlify.app/" target="_blank">Website</a>
-                    </div>
+                            <a href="https://github.com/chinnijagadeesh/godly-pleasure-4788" target="_blank">Source
+                                Code</a>
+                            <a href="https://meek-sunflower-0fd026.netlify.app/" target="_blank">Website</a>
+                        </div>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/adminpanal.png">
                     <div class="layer">
                         <h1>Product Management System</h1>
-                        <p>It's a Ecommerce product management system where admin can track backend. <br> I am indevisual do it in between 3hours. <br> Tech Stack Used - HTML , CSS , Vanilla JS(Oops,ES6,ES5) , Server JS, Heroku.<br> I have applied all of
-                            my web development skills in a short project. <br> All the functionality are working like: Add product, Update price , Delete Product, sort and filter.  <br> </p>
+                        <p>It's a Ecommerce product management system where admin can track backend. <br> I am
+                            indevisual do it in between 3hours. <br> Tech Stack Used - HTML , CSS , Vanilla
+                            JS(Oops,ES6,ES5) , Server JS, Heroku.<br> I have applied all of
+                            my web development skills in a short project. <br> All the functionality are working like:
+                            Add product, Update price , Delete Product, sort and filter. <br> </p>
                         <div>
-                        <a href="https://github.com/biswarup-bhunia/Ecommerce-Admin-Panal" target="_blank">Source Code</a>
-                        <a href="https://flourishing-taiyaki-9461e0.netlify.app/" target="_blank">Website</a>
-                    </div>
+                            <a href="https://github.com/biswarup-bhunia/Ecommerce-Admin-Panal" target="_blank">Source
+                                Code</a>
+                            <a href="https://flourishing-taiyaki-9461e0.netlify.app/" target="_blank">Website</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-   
-    <div id="contact">
+
+    <div id="contact" data-aos="fade-in">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
@@ -192,8 +221,10 @@
                     <p><i id="email" class="fa-solid fa-envelope-open"></i> rup.bhunia1999@gmail.com</p>
                     <p><i id="call" class="fa-solid fa-square-phone"></i> +918670113037</p>
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/biswarupbhunia/" target="_blank"><i id="linkedIN" class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/biswarup-bhunia" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/biswarupbhunia/" target="_blank"><i id="linkedIN"
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/biswarup-bhunia" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
                 <div class="contact-right">
@@ -207,16 +238,24 @@
                 </div>
             </div>
         </div>
-        <div class="copyright">
+        <div class="copyright" data-aos="fade-in">
             <p>Written & Coded By Biswarup Bhunia <i class="fa-solid fa-heart"></i></p>
         </div>
     </div>
 
 </body>
+
 </html>
 
 <script src="index.js"></script>
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 <script>
-  GitHubCalendar(".calendar", "biswarup-bhunia", { responsive: true });
+    GitHubCalendar(".calendar", "biswarup-bhunia", { responsive: true });
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 110,
+  duration: 1000,
+    });
 </script>
