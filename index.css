@@ -167,7 +167,7 @@ nav ul li a:hover::after {
 /* About */
 
 #about {
-  padding: 60px 0px;
+  padding: 60px 0px 0px;
   color: black;
   background-color: rgb(234, 206, 170);
 }
@@ -228,7 +228,8 @@ nav ul li a:hover::after {
 }
 .contents ul li span {
   color: #602020;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
 }
 .contents {
   display: none;
@@ -236,11 +237,12 @@ nav ul li a:hover::after {
 
 .contents ul li i {
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .contents.active-tab {
-  display: block;
+  display: flex;
+  gap: 50px;
 }
 /* --------------Services---------- */
 #services {
@@ -284,7 +286,7 @@ nav ul li a:hover::after {
   color: #d8cfcf;
 }
 #java {
-  color: #f0931c;
+  color: #fe0000;
 }
 #sql {
   color: #005e86;
@@ -542,7 +544,12 @@ nav .fas {
   .about-col-2 {
     font-size: 14px;
   }
-
+  .contents ul li span {
+    font-size: 15px;
+  }
+  .contents ul li i {
+    font-size: 20px;
+  }
   .skill-ed {
     font-size: 16px;
     margin-right: 20px;
