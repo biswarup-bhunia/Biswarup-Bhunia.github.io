@@ -242,7 +242,7 @@ nav ul li a:hover::after {
 
 .contents.active-tab {
   display: flex;
-  gap: 50px;
+  gap: 100px;
 }
 /* --------------Services---------- */
 #services {
@@ -306,6 +306,10 @@ nav ul li a:hover::after {
 }
 #communication {
   color: #61b752;
+}
+#spring, #hibernate{
+  width: 24px;
+  margin-right: 7px;
 }
 /*---------------- Project --------------- */
 
@@ -579,7 +583,7 @@ nav .fas {
   }
 }
 
-@media screen and (min-width: 636px) and (max-width: 1068px) {
+@media screen and (min-width: 521px) and (max-width: 1068px) {
   .header-text {
     margin-top: 150px;
   }
