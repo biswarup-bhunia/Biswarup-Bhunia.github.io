@@ -228,7 +228,7 @@ nav ul li a:hover::after {
 }
 .contents ul li span {
   color: #602020;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 .contents {
@@ -239,10 +239,9 @@ nav ul li a:hover::after {
   margin-right: 10px;
   font-size: 25px;
 }
-
 .contents.active-tab {
   display: flex;
-  gap: 100px;
+  gap: 20px;
 }
 /* --------------Services---------- */
 #services {
@@ -285,6 +284,7 @@ nav ul li a:hover::after {
   font-size: 16px;
   color: #d8cfcf;
 }
+
 #java {
   color: #fe0000;
 }
@@ -307,7 +307,7 @@ nav ul li a:hover::after {
 #communication {
   color: #61b752;
 }
-#spring, #hibernate{
+#spring, #hibernate ,#aws, #vscode, #SpringTool, #eclipse{
   width: 24px;
   margin-right: 7px;
 }
@@ -338,6 +338,7 @@ nav ul li a:hover::after {
   height: 100%;
   border-radius: 10px;
 }
+
 .work:hover {
   transform: translateY(-10px);
   transform: scale(1.1);
@@ -471,7 +472,7 @@ nav .fas {
   display: block;
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 635px) {
   #header {
     background-image: url(images/blackwallpaper.PNG);
   }
@@ -583,7 +584,7 @@ nav .fas {
   }
 }
 
-@media screen and (min-width: 521px) and (max-width: 1068px) {
+@media screen and (min-width: 635px) and (max-width: 1068px) {
   .header-text {
     margin-top: 150px;
   }
